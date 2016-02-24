@@ -1,10 +1,15 @@
 .lead {
 	color: red;
-	font-family: Helvetica;
+	font-family: Georgia;
 	font-size: 80px;
 	font-weight: bold;
+	font-style: italic;
 	text-align: center;
 }
 .thumbnail{
 	text-align: center;
+}
+h4 {
+	color: red;
+	font-family: Georgia;
 }
