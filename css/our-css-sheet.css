@@ -9,7 +9,10 @@
 .thumbnail{
 	text-align: center;
 }
-h4 {
+h3 {
 	color: red;
 	font-family: Georgia;
+}
+body {
+	text-align: center;
 }
