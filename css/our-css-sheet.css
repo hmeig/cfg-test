@@ -16,3 +16,13 @@ h3 {
 body {
 	text-align: center;
 }
+.form-control {
+	width: 50%;
+}
+.btn {
+	background-color: red;
+	color: white;
+}
+.glyphicon {
+	color: red;
+}
