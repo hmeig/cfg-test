@@ -6,7 +6,7 @@
 	font-style: italic;
 	text-align: center;
 }
-.thumbnail{
+.thumbnail {
 	text-align: center;
 }
 h3 {
@@ -25,4 +25,8 @@ body {
 }
 .glyphicon {
 	color: red;
+}
+.slogan {
+	color: red;
+	font-style:  italic;
 }

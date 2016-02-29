@@ -33,27 +33,29 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">The Daily Bread</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#AboutUs">About Us</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#WhatsOnOffer">What's On Offer</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#OrderForm">Order Form</a>
+                    </li>    
+                    <li>
+                        <a href="#Contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -66,15 +68,19 @@
     <div class="container">
         <p class="lead">The Daily Bread</p>
         <div class="row">
-            <h3>About Us</h3>
-            <p>The Daily Bread was created in 2016 to deliver freshly baked bread to busy people.</p>
+            <h3 id="AboutUs">About Us</h3>
+            <p>The Daily Bread was created in 2016 to deliver freshly baked bread to busy people in the Birmingham area.</p>
+            <p>We know that everyone loves fresh bread but with busy schedules, no body has the time to buy it in the morning.</p>
+            <p>So we have decided to help the people of Birmingham by delivering delicious, baked goods straight out of the oven to your front door!<p>
+            <p>All you need to do is fill out our order form with your preferred type of bread to be delivered, what days you'd like it and your delivery address.</p>
+            <p id="slogan">Every morning, rain or shine, wake up to fresh bread on your doorstep!</p>
         </div>
         
 
             <div class="col-md-12">
 
                 <div class="row">
-                    <h3>What's On Offer</h3>
+                    <h3 id="WhatsOnOffer">What's On Offer</h3>
                    
                     <div class="col-sm-3 col-lg-3 col-md-3">
                         <div class="thumbnail">
@@ -165,7 +171,8 @@
                     </div>
 
                 </div>
-            <h3>Order Form</h3>
+    <!-- Order Form -->
+            <h3 id="OrderForm">Order Form</h3>
             <label for="form-control">Name</label>
         <br />
             <form class="form-inline">
@@ -237,7 +244,8 @@
         <br />
             <input class="btn btn-default" type="submit" value="Submit">
         <br />
-            <h3>Contact Us</a></h3>
+        <!--Contact Us -->
+            <h3 id="ContactUs">Contact Us</a></h3>
             <p>At The Daily Bread, we appreciate our customers' opinions, so simply click below to say hello or tell us what you think about our bread delivery service.</p>
             <input class="btn btn-default" type="submit" value="Email">
         </div>
