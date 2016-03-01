@@ -1,5 +1,5 @@
 .lead {
-	color: red;
+	color: #B32828;
 	font-family: Georgia;
 	font-size: 80px;
 	font-weight: bold;
@@ -12,7 +12,7 @@
 }
 
 h3 {
-	color: red;
+	color: #B32828;
 	font-family: Georgia;
 }
 
@@ -27,21 +27,21 @@ body {
 }
 
 .btn {
-	background-color: red;
+	background-color: #B32828;
 	color: white;
 }
 
 .glyphicon {
-	color: red;
+	color: #B32828;
 }
 
 #slogan {
-	color: red;
+	color: #B32828;
 	font-style:  italic;
 }
 
 h4 {
-	color: red;
+	color: #B32828;
 	font-family: Georgia;
 }
 
