@@ -40,6 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">The Daily Bread</a>
             </div>
@@ -53,6 +54,9 @@
                     </li>
                     <li>
                         <a href="#OrderForm">Order Form</a>
+                    </li>
+                    <li>
+                        <a href="#DeliveryInformation">Delivery Information</a>
                     </li>    
                     <li>
                         <a href="#ContactUs">Contact Us</a>
@@ -171,7 +175,7 @@
 
                 </div>
     <!-- Order Form -->
-        <div class="row order-form">
+            <div class="row order-form">
                 <h3 id="OrderForm">Order Form</h3>
             <label for="form-control">Name</label>
         <br />
@@ -242,9 +246,21 @@
             </div>
         <br />
         <br />
-            <input class="btn btn-default" type="submit" value="Submit">
+          <!--
+            <input id="submitform" class="btn btn-default" type="submit" value="Submit"> -->
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Submit</button>
         <br />
     </div>
+<br />
+     
+   <!--Delivery Information -->
+        <div class="row delivery-information">
+            <h3 id="DeliveryInformation">Delivery Information</a></h3>
+            <p>We will deliver your freshly baked bread in the morning between 7am and 9am.</p>
+            <p>Delivery costs £1 per order for fresh bread delivered to your door. We also offer free delivery if you spend over £10, just add the discount code "FREEDELIVERY" at checkout.</p>
+        </div>
+
 <br />
         <!--Contact Us -->
         <div class="row contact-us">
@@ -275,11 +291,22 @@
     </div>
     <!-- /.container -->
 
+    <!-- Modals -->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          ...
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/our-jquery.js"></script>
 
 </body>
 
